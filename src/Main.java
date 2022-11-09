@@ -2,11 +2,14 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        MyClass myClass = new MyClass(" Nuridinov","Kairat",18,new String[]{"Sofkils ","Englsh","java"});
-        System.out.println("Surname : "+myClass.getSurname()+"\n"+"Name : " +myClass.getName()+"\n"+"Age : "+myClass.getAge()+"\n"+"Which classes will be attended : "+ Arrays.toString(myClass.getPeaksoft()));
+        System.out.println();
+        Programmer programmer= new Programmer("Kairat",18,"Programist","writes code");
+        System.out.println(programmer+"\n");
 
-        MyClass myClass1=new MyClass("Manty");
-        System.out.println("Food : "+myClass1.getfood());
+        Dancer dance=new Dancer("Akylai",15," Dancer","dancing");
+        System.out.println(dance+"\n");
+
+        Singer singer =new Singer("Argen",18,"Singe","sings");
+        System.out.println(singer);
     }
-
 }
