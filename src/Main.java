@@ -1,17 +1,23 @@
-import java.util.Scanner;
+
 
 public class Main {
 
     public static void main(String[] args) {
+        Time time = new Time(22,49,48 );
+        System.out.println(time.nextSecond());
+        System.out.println(time.previousSecond());
 
-        Scanner sc =new Scanner(System.in);
 
-        System.out.println(" Radius санын бериниз  ");
 
-        double radius= sc.nextDouble();
 
-        System.out.println("Area : "+Circle.area(radius));
 
-        System.out.println("Circumference : "+Circle.circumference(radius));
+
+
+
+
+
+
+
+
     }
 }
